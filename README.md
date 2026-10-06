@@ -7,9 +7,12 @@ Este projeto consiste em um sistema de criptografia interativo desenvolvido em L
 
 🚀 Funcionalidades
 
-Validação de Entrada: Garante que a mensagem não seja vazia e tenha no máximo 15 caracteres.Alfabeto Alfanumérico Ampliado: Suporta letras maiúsculas (A-Z), minúsculas (a-z) e dígitos numéricos (0-9), totalizando 62 caracteres.Camada 
+Validação de Entrada: Garante que a mensagem não seja vazia e tenha no máximo 15 caracteres.Alfabeto Alfanumérico Ampliado: Suporta letras maiúsculas (A-Z), minúsculas (a-z) e dígitos numéricos (0-9), totalizando 62 caracteres.
+CAMADA 1 
 
 1 - Cifra de César: Deslocamento customizável pelo usuário (suporta valores positivos e negativos).
+
+CAMADA 2
 
 2 - Sequências Matemáticas: Fibonacci: Deslocamento baseado nos termos da sequência de Fibonacci.Progressão Aritmética (PA): Deslocamento com razão definida pelo usuário.Progressão Geométrica (PG): Deslocamento exponencial com razão definida pelo usuário. Números Primos: Deslocamento progressivo baseado na sequência de números primos.Incremento em Progressão: Deslocamento acumulativo ($1, 2, 4, 7, 11, \dots$). Exportação dos Resultados: Salva automaticamente o resultado codificado e os parâmetros utilizados em um arquivo texto (resultado_criptografia.txt).
 
@@ -22,7 +25,7 @@ Passos:
 Clone o repositório ou baixe o arquivo fonte .c:
 
 Bash
-git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+git clone EX: https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
 cd NOME_DO_REPOSITORIO
 Compile o código:
 
